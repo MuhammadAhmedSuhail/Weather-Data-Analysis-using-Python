@@ -1,7 +1,7 @@
 # Weather-Data-Analysis-using-Python
 
 ## Project Description
-This project aims to analyze weather data and address the common challenge of missing data in data analysis. The dataset used is "Weather Records.xlsx", which contains 13 columns, including a prediction column for precipitation (in).
+The aim of this project is to perform a comprehensive analysis of weather data using Python. Weather data provides us with information about temperature, humidity, wind speed, and other atmospheric conditions. This project also aims to address the common challenge of missing data in data analysis. The dataset used is "Weather Records.xlsx", which contains 13 columns, including a prediction column for precipitation (in).
 
 ## Data Preprocessing
 To deal with missing data, I used various methods such as forward fill, backward fill, and interpolation. I only dropped rows if they could not be filled in by any of these methods. For the date column, I created new features such as month, year, and day of the week.
